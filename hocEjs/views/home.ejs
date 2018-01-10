@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<% const a = 10 %>
+<html lang="en">
+<%- include('./partials/head.ejs', { title : 'Homepage' }) %>
+<body>
+    <h3>Khoa Pham Online <%= name %> <%=age %></h3>
+    <% if(isAdmin){ %>
+        <p>Bang dieu khien</p>
+    <% }else{ %>
+        <p>Ban phai la admin moi su dung tinh nang nay</p>
+    <% } %>
+
+    <% subjects.forEach(x => { %>
+        <p>Mon hoc: <%= x %></p>
+    <% }); %>    
+</body>
+</html>
+
+<script src="reload/reload.js"></script>

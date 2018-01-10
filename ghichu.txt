@@ -1,0 +1,16 @@
+npm init: khoi tao project de up len host
+npm init -y: yes het
+npm install abc: cai dat thu vien abc
+npm install: cai dat nhung thu vien da khai bao trong depedency
+
+npm install yarn -g: ca yarn global
+yarn -v: ktra verson
+yarn init -y: tao project moi bang yarn
+yarn add express ejs: add thu vien express va ejs
+yarn add express@4.16.0: add thu vien express version khac
+
+
+cai extensition npm intellisense va path itellisense 
+cai thu vien body parser
+
+dki tai khoan heroku.com, cai dat herolu cli
